@@ -3,12 +3,8 @@
 **Introduction**
 
 This century has seen an outburst of data being generated as a result of
-the
-
-continuous use of edge technologies. Retail giants like Walmart consider
-this data
-
-as their biggest asset as this helps them predict future sales and
+the continuous use of edge technologies. Retail giants like Walmart consider
+this data as their biggest asset as this helps them predict future sales and
 customers and finally helps lay out plans to generate profits and
 compete with other organizations. The employment of modern technological
 approaches is crucial for any organization to survive in a cutting-edge
@@ -27,27 +23,21 @@ that stores can work on creating promotional offers that increase sales
 and generate higher revenue.
 
 Walmart runs several promotional markdown sales throughout the year on
-days
-
-immediately following the prominent holidays in the United States which
+days immediately following the prominent holidays in the United States which
 are taken into consideration to determine the impact on weekly sales and
 to drive resources towards such key strategic initiatives.
 
 **Tools Used**
 
 The analysis for this forecasting has been done using Python and Tableau
-on
-
-the dataset provided by Walmart at
+on the dataset provided by Walmart at
 “*https://data.world/tommywilczek/walmart”*. For the initial EDA Python
 libraries like matplotlib, seaborn, etc have been implemented. Packages
 like numpy, pandas, etc. have been used for data wrangling and
 manipulation.
 
 For the models that have been trained, several packages like
-‘scikit-learn’, ‘xgboost’, etc
-
-have been applied.
+‘scikit-learn’, ‘xgboost’, etc have been applied.
 
 **Exploratory data analysis**
 
@@ -68,9 +58,7 @@ the following:
 
 Correlation testing has been performed to understand if there is a
 correlation between individual factors and weekly sales and whether such
-factors have any impact
-
-on sales made by Walmart.
+factors have any impact on sales made by Walmart.
 
 **Data Cleaning**
 
@@ -130,7 +118,7 @@ Created and trained various models to predict future sales using
 different algorithms**.** The test and train data error loss and wmae
 details are as follows:-
 
-<img src="./media/image2.emf"
+<img src="./media/image2.png"
 style="width:6.26806in;height:3.34653in" />
 
 Gradient Booster seems to be the best algorithm for this data. It gives
@@ -215,18 +203,11 @@ better policies and techniques for increased profits.
 **Future Work**
 
 An important aspect of this study could be to try and understand
-customer buying
-
-behaviour based on regional and departmental sales. This customer
-segmentation can
-
-help Walmart create and communicate targeted messages for customers
-
+customer buying behaviour based on regional and departmental sales. This customer
+segmentation can help Walmart create and communicate targeted messages for customers
 belonging to a particular region, establishing better customer
 relationships, focusing on profit-generating regions, and identifying
-ways to improve services in specific
-
-regions or for specific customers.
+ways to improve services in specific regions or for specific customers.
 
 Time series forecasting is another aspect that can be utilized (ARMA and
 ARIMA modelling) to predict future sales for each of the stores and
